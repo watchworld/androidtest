@@ -1,0 +1,98 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Guava reccomends using this option
+# https://code.google.com/p/guava-libraries/wiki/UsingProGuardWithGuava
+-dontoptimize
+
+# Obfuscation makes debugging difficult, so disable it.
+# -dontobfuscate
+
+-printmapping build/outputs/mapping/release/mapping.txt
+
+-ignorewarnings
+#-libraryjars libs/android-support-v4.jar
+
+# Don't show notes from libraries we use
+-dontnote android.support.**
+-dontnote com.google.common.**
+-dontnote com.google.android.gms.**
+-dontnote com.leff.midi.MidiTrack
+
+# Keep all classes that might be used in XML speech rules.
+-keep class * implements com.android.talkback.formatter.EventSpeechRule$AccessibilityEventFormatter
+-keep class * implements com.android.talkback.formatter.EventSpeechRule$AccessibilityEventFilter
+-keep class com.android.talkback.tutorial.** {
+    public protected private *;
+}
+
+# Get weird errors about android support library
+-dontwarn android.**
+-dontwarn sun.misc.Unsafe
+-dontwarn com.google.common.**
+-dontwarn com.google.android.gms.**
+
+-keep class android.net.** { *; }
+-keep class com.android.internal.http.multipart.** { *; }
+-keep class org.apache.** { *; }
+-keep class com.iflytek.** { *; }	
+
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
+
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep class com.tencent.android.tpush.**  {* ;}
+-keep class com.tencent.mid.**  {* ;}
+
+-keep public class net.czy.manager.InstallApk$* {*;}
+-keep public class net.czy.manager.* {*;}
+-keep public class com.czy.tools.Compared$* {*;}
+-keep public class com.czy.tools.Compared {*;}
+
+-keep public class com.xinyang.screenreader.ApkActivity$* {*;}
+-keep public class com.xinyang.screenreader.LoginActivity$* {*;}
+-keep public class com.xinyang.screenreader.MyFragment$* {*;}
+-keep public class com.bdtexample.BDTranslate$* {*;}
+-keep public class com.xinyang.screenreader.RegisterActivity$* {*;}
+-keep public class com.xinyang.screenreader.ResetPasswordActivity$* {*;}
+-keep public class com.xinyang.screenreader.ApkFragment$* {*;}
+-keep public class com.xinyang.screenreader.SettingsFragment$* {*;}
+-keep public class com.xinyang.screenreader.MainActivity$* {*;}
+-keep class org.apache.** {*;}
+-keep public class com.czy.ocr.AccountActivity$* {*;}
+-keep public class com.czy.ocr.OCRDialogActivity$* {*;}
+
+-keep class com.tencent.stat.**  {*;}
+-keep class com.tencent.mid.**  {*;}
+
+-keep class com.tencent.open.TDialog$*
+-keep class com.tencent.open.TDialog$* {*;}
+-keep class com.tencent.open.PKDialog
+-keep class com.tencent.open.PKDialog {*;}
+-keep class com.tencent.open.PKDialog$*
+-keep class com.tencent.open.PKDialog$* {*;}
+
+-keep class com.sina.weibo.sdk.**
+-dontwarn com.weibo.sdk.Android.WeiboDialog
+ -dontwarn android.NET.http.SslError
+ -dontwarn android.webkit.WebViewClient
+ -keep public class android.Net.http.SslError{*;}
+ -keep public class android.webkit.WebViewClient{*;}
+ -keep public class android.webkit.WebChromeClient{*;}
+ -keep public interface android.webkit.WebChromeClient$CustomViewCallback {*;}
+ -keep public interface android.webkit.ValueCallback {*;}
+ -keep class * implements android.webkit.WebChromeClient {*;}
+
+-dontwarn com.tencent.mm.**
+-keep class com.tencent.mm.**{*;}

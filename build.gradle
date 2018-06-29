@@ -1,0 +1,56 @@
+apply from: 'base.gradle'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.aspectj:aspectjtools:1.8.1'
+        classpath 'com.android.tools.build:gradle:1.5.0'
+    }
+}
+
+android {
+    sourceSets {
+        main {
+      jniLibs.srcDirs = ["$projectDir/src/main/libs"]
+    }
+    }
+    productFlavors {
+        aosp {
+            applicationId "com.xinyang.screenreader"
+            versionName "1.5.5.91"
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile files('src/main/libs/alipaySdk-20161222.jar')
+    compile files('src/main/libs/wechat-sdk-android-without-mta-1.0.2.jar')
+    compile files('src/main/libs/mta-android-stat-sdk-2.3.0_20161221-jdk1.6.jar')
+    compile files('src/main/libs/mid-core-sdk-3.7.1.jar')
+                compile files('src/main/libs/org.apache.http.legacy.jar')
+    compile files('src/main/libs/open_sdk_r5509.jar')
+    compile files('src/main/libs/libammsdk.jar')
+    compile files('src/main/libs/weibosdkcore_release.jar')
+}
+
+task grantPermission(type: Exec) {
+    commandLine 'adb', 'shell', 'pm', 'grant', 'com.android.talkback.test',
+            'android.permission.WRITE_SECURE_SETTINGS'
+}
+
+task instrumentationTest(type: Exec, dependsOn: ['installAospDebug',
+                                                 'installAospDebugAndroidTest',
+                                                 'grantPermission']) {
+    commandLine 'adb', 'shell', 'am', 'instrument', '-w',
+            'com.android.talkback.test/android.test.InstrumentationTestRunner'
+}
+
+afterEvaluate {
+    tasks.withType (org.gradle.api.tasks.compile.AbstractCompile) {
+        compileTask -> compileTask.dependsOn(copyPreferencesXmlForV21)
+    }
+}

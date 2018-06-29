@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#FF000000"
+              android:textColor="#FFFFFFFF"
+>
+
+<View 
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:background="@null"
+android:visibility="invisible"
+/>
+
+<TextView
+android:id="@+id/show_textView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:background="@null"
+android:textColor="#FFFFFFFF"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:textSize="18sp"
+android:text="备份你当前的世界设置，不会备份你的用户登陆信息。\n会将当前的世界配置信息保存到你的sd卡根目录下的心阳文件夹中。\n要进行配置的导入，只要将配置文件复制到其它手机的相同位置，点导入便可。"
+/>
+
+  <Button
+android:id="@+id/btn_backup_current"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="备份当前配置。"
+android:textSize="20sp"
+android:background="@null"
+android:textColor="#FFFFFFFF"
+/>
+
+  <Button
+android:id="@+id/btn_backup_rollback"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="导入外部配置。"
+android:textSize="20sp"
+android:background="@null"
+android:textColor="#FFFFFFFF"
+/>
+
+<View 
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:background="@null"
+android:visibility="invisible"
+/>
+
+</LinearLayout>

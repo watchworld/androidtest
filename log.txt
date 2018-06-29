@@ -1,0 +1,648 @@
+Starting a new Gradle Daemon for this build (subsequent builds will be faster).
+Parallel execution is an incubating feature.
+:copyPreferencesXmlForV21 UP-TO-DATE
+:preBuild UP-TO-DATE
+:preAospDebugBuild UP-TO-DATE
+:checkAospDebugManifest
+:preAospReleaseBuild UP-TO-DATE
+:prepareComAndroidSupportAnimatedVectorDrawable2321Library UP-TO-DATE
+:prepareComAndroidSupportAppcompatV72321Library UP-TO-DATE
+:prepareComAndroidSupportSupportV42400Library UP-TO-DATE
+:prepareComAndroidSupportSupportVectorDrawable2321Library UP-TO-DATE
+:prepareAospDebugDependencies
+:compileAospDebugAidl UP-TO-DATE
+:compileAospDebugRenderscript UP-TO-DATE
+:generateAospDebugBuildConfig
+:generateAospDebugAssets UP-TO-DATE
+:mergeAospDebugAssets UP-TO-DATE
+:generateAospDebugResValues UP-TO-DATE
+:generateAospDebugResources UP-TO-DATE
+:mergeAospDebugResources UP-TO-DATE
+:processAospDebugManifest
+:processAospDebugResources
+:generateAospDebugSources
+:compileAospDebugJavaWithJavac
+:compileAospDebugNdk UP-TO-DATE
+:compileAospDebugSources
+:transformClassesWithDexForAospDebug
+:mergeAospDebugJniLibFolders UP-TO-DATE
+:transformNative_libsWithMergeJniLibsForAospDebug UP-TO-DATE
+:processAospDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForAospDebug UP-TO-DATE
+:validateDebugSigning
+:packageAospDebug
+:zipalignAospDebug
+:assembleAospDebug
+:assembleDebug
+:checkAospReleaseManifest
+:prepareAospReleaseDependencies
+:compileAospReleaseAidl UP-TO-DATE
+:compileAospReleaseRenderscript UP-TO-DATE
+:generateAospReleaseBuildConfig
+:generateAospReleaseAssets UP-TO-DATE
+:mergeAospReleaseAssets UP-TO-DATE
+:generateAospReleaseResValues UP-TO-DATE
+:generateAospReleaseResources UP-TO-DATE
+:mergeAospReleaseResources UP-TO-DATE
+:processAospReleaseManifest
+:processAospReleaseResources
+:generateAospReleaseSources
+:compileAospReleaseJavaWithJavac
+:compileAospReleaseNdk UP-TO-DATE
+:compileAospReleaseSources
+:processAospReleaseJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForAospRelease UP-TO-DATE
+:transformClassesAndResourcesWithProguardForAospRelease
+ProGuard, version 5.2.1
+Reading input...
+Reading program jar [D:\screenreader\src\main\libs\mid-core-sdk-3.7.1.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\mta-android-stat-sdk-2.3.0_20161221-jdk1.6.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\alipaySdk-20161222.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\org.apache.http.legacy.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\weibosdkcore_release.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\wechat-sdk-android-without-mta-1.0.2.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\open_sdk_r5509.jar] (filtered)
+Reading program jar [D:\screenreader\src\main\libs\libammsdk.jar] (filtered)
+Reading program jar [D:\android\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar] (filtered)
+Reading program jar [D:\screenreader\build\intermediates\transforms\mergeJavaRes\aosp\release\jars\2\1f\main.jar] (filtered)
+Reading program directory [D:\screenreader\build\intermediates\classes\aosp\release] (filtered)
+Reading library jar [D:\android\platforms\android-24\android.jar]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Reading library jar [D:\android\platforms\android-24\optional\org.apache.http.legacy.jar]
+Note: duplicate definition of library class [com.android.internal.http.multipart.ByteArrayPartSource]
+Note: duplicate definition of library class [com.android.internal.http.multipart.MultipartEntity]
+Note: duplicate definition of library class [com.android.internal.http.multipart.FilePartSource]
+Note: duplicate definition of library class [com.android.internal.http.multipart.PartSource]
+Note: duplicate definition of library class [com.android.internal.http.multipart.StringPart]
+Note: duplicate definition of library class [com.android.internal.http.multipart.FilePart]
+Note: duplicate definition of library class [com.android.internal.http.multipart.PartBase]
+Note: duplicate definition of library class [com.android.internal.http.multipart.Part]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpRequestExecutor]
+Note: duplicate definition of library class [org.apache.http.protocol.ResponseConnControl]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpExpectationVerifier]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestExpectContinue]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestDate]
+Note: duplicate definition of library class [org.apache.http.protocol.BasicHttpProcessor]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestContent]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpResponseInterceptorList]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpRequestHandler]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestConnControl]
+Note: duplicate definition of library class [org.apache.http.protocol.ResponseDate]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpRequestHandlerResolver]
+Note: duplicate definition of library class [org.apache.http.protocol.ExecutionContext]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpService]
+Note: duplicate definition of library class [org.apache.http.protocol.DefaultedHttpContext]
+Note: duplicate definition of library class [org.apache.http.protocol.ResponseServer]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestUserAgent]
+Note: duplicate definition of library class [org.apache.http.protocol.ResponseContent]
+Note: duplicate definition of library class [org.apache.http.protocol.UriPatternMatcher]
+Note: duplicate definition of library class [org.apache.http.protocol.HTTP]
+Note: duplicate definition of library class [org.apache.http.protocol.RequestTargetHost]
+Note: duplicate definition of library class [org.apache.http.protocol.SyncBasicHttpContext]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpContext]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpDateGenerator]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpRequestInterceptorList]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpRequestHandlerRegistry]
+Note: duplicate definition of library class [org.apache.http.protocol.BasicHttpContext]
+Note: duplicate definition of library class [org.apache.http.protocol.HttpProcessor]
+Note: duplicate definition of library class [org.apache.http.StatusLine]
+Note: duplicate definition of library class [org.apache.http.HttpConnectionMetrics]
+Note: duplicate definition of library class [org.apache.http.Header]
+Note: duplicate definition of library class [org.apache.http.NoHttpResponseException]
+Note: duplicate definition of library class [org.apache.http.TokenIterator]
+Note: duplicate definition of library class [org.apache.http.HttpResponseFactory]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieIdentityComparator]
+Note: duplicate definition of library class [org.apache.http.cookie.SetCookie]
+Note: duplicate definition of library class [org.apache.http.cookie.SetCookie2]
+Note: duplicate definition of library class [org.apache.http.cookie.SM]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieOrigin]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieSpecFactory]
+Note: duplicate definition of library class [org.apache.http.cookie.CookiePathComparator]
+Note: duplicate definition of library class [org.apache.http.cookie.Cookie]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieSpec]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieSpecRegistry]
+Note: duplicate definition of library class [org.apache.http.cookie.CookieAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.cookie.params.CookieSpecParamBean]
+Note: duplicate definition of library class [org.apache.http.cookie.params.CookieSpecPNames]
+Note: duplicate definition of library class [org.apache.http.cookie.MalformedCookieException]
+Note: duplicate definition of library class [org.apache.http.cookie.ClientCookie]
+Note: duplicate definition of library class [org.apache.http.HttpRequest]
+Note: duplicate definition of library class [org.apache.http.ParseException]
+Note: duplicate definition of library class [org.apache.http.HttpClientConnection]
+Note: duplicate definition of library class [org.apache.http.UnsupportedHttpVersionException]
+Note: duplicate definition of library class [org.apache.http.HttpHost]
+Note: duplicate definition of library class [org.apache.http.HttpVersion]
+Note: duplicate definition of library class [org.apache.http.HttpMessage]
+Note: duplicate definition of library class [org.apache.http.HttpStatus]
+Note: duplicate definition of library class [org.apache.http.entity.EntityTemplate]
+Note: duplicate definition of library class [org.apache.http.entity.ContentProducer]
+Note: duplicate definition of library class [org.apache.http.entity.InputStreamEntity]
+Note: duplicate definition of library class [org.apache.http.entity.SerializableEntity]
+Note: duplicate definition of library class [org.apache.http.entity.BasicHttpEntity]
+Note: duplicate definition of library class [org.apache.http.entity.StringEntity]
+Note: duplicate definition of library class [org.apache.http.entity.ByteArrayEntity]
+Note: duplicate definition of library class [org.apache.http.entity.FileEntity]
+Note: duplicate definition of library class [org.apache.http.entity.AbstractHttpEntity]
+Note: duplicate definition of library class [org.apache.http.entity.HttpEntityWrapper]
+Note: duplicate definition of library class [org.apache.http.entity.BufferedHttpEntity]
+Note: duplicate definition of library class [org.apache.http.entity.ContentLengthStrategy]
+Note: duplicate definition of library class [org.apache.http.io.SessionInputBuffer]
+Note: duplicate definition of library class [org.apache.http.io.SessionOutputBuffer]
+Note: duplicate definition of library class [org.apache.http.io.HttpTransportMetrics]
+Note: duplicate definition of library class [org.apache.http.io.HttpMessageWriter]
+Note: duplicate definition of library class [org.apache.http.io.HttpMessageParser]
+Note: duplicate definition of library class [org.apache.http.HttpException]
+Note: duplicate definition of library class [org.apache.http.HeaderIterator]
+Note: duplicate definition of library class [org.apache.http.HttpConnection]
+Note: duplicate definition of library class [org.apache.http.ReasonPhraseCatalog]
+Note: duplicate definition of library class [org.apache.http.HttpRequestInterceptor]
+Note: duplicate definition of library class [org.apache.http.HeaderElement]
+Note: duplicate definition of library class [org.apache.http.HttpEntityEnclosingRequest]
+Note: duplicate definition of library class [org.apache.http.HttpEntity]
+Note: duplicate definition of library class [org.apache.http.HttpRequestFactory]
+Note: duplicate definition of library class [org.apache.http.FormattedHeader]
+Note: duplicate definition of library class [org.apache.http.RequestLine]
+Note: duplicate definition of library class [org.apache.http.NameValuePair]
+Note: duplicate definition of library class [org.apache.http.HttpServerConnection]
+Note: duplicate definition of library class [org.apache.http.ProtocolVersion]
+Note: duplicate definition of library class [org.apache.http.HttpInetConnection]
+Note: duplicate definition of library class [org.apache.http.auth.UsernamePasswordCredentials]
+Note: duplicate definition of library class [org.apache.http.auth.AuthenticationException]
+Note: duplicate definition of library class [org.apache.http.auth.Credentials]
+Note: duplicate definition of library class [org.apache.http.auth.AuthSchemeFactory]
+Note: duplicate definition of library class [org.apache.http.auth.BasicUserPrincipal]
+Note: duplicate definition of library class [org.apache.http.auth.MalformedChallengeException]
+Note: duplicate definition of library class [org.apache.http.auth.AuthState]
+Note: duplicate definition of library class [org.apache.http.auth.NTUserPrincipal]
+Note: duplicate definition of library class [org.apache.http.auth.AUTH]
+Note: duplicate definition of library class [org.apache.http.auth.NTCredentials]
+Note: duplicate definition of library class [org.apache.http.auth.AuthSchemeRegistry]
+Note: duplicate definition of library class [org.apache.http.auth.params.AuthPNames]
+Note: duplicate definition of library class [org.apache.http.auth.params.AuthParamBean]
+Note: duplicate definition of library class [org.apache.http.auth.params.AuthParams]
+Note: duplicate definition of library class [org.apache.http.auth.InvalidCredentialsException]
+Note: duplicate definition of library class [org.apache.http.auth.AuthScheme]
+Note: duplicate definition of library class [org.apache.http.auth.AuthScope]
+Note: duplicate definition of library class [org.apache.http.MalformedChunkCodingException]
+Note: duplicate definition of library class [org.apache.http.ConnectionClosedException]
+Note: duplicate definition of library class [org.apache.http.ConnectionReuseStrategy]
+Note: duplicate definition of library class [org.apache.http.HttpResponseInterceptor]
+Note: duplicate definition of library class [org.apache.http.util.EntityUtils]
+Note: duplicate definition of library class [org.apache.http.util.ExceptionUtils]
+Note: duplicate definition of library class [org.apache.http.util.EncodingUtils]
+Note: duplicate definition of library class [org.apache.http.util.VersionInfo]
+Note: duplicate definition of library class [org.apache.http.util.ByteArrayBuffer]
+Note: duplicate definition of library class [org.apache.http.util.CharArrayBuffer]
+Note: duplicate definition of library class [org.apache.http.util.LangUtils]
+Note: duplicate definition of library class [org.apache.http.client.protocol.ResponseProcessCookies]
+Note: duplicate definition of library class [org.apache.http.client.protocol.ClientContext]
+Note: duplicate definition of library class [org.apache.http.client.protocol.RequestProxyAuthentication]
+Note: duplicate definition of library class [org.apache.http.client.protocol.RequestDefaultHeaders]
+Note: duplicate definition of library class [org.apache.http.client.protocol.RequestTargetAuthentication]
+Note: duplicate definition of library class [org.apache.http.client.protocol.RequestAddCookies]
+Note: duplicate definition of library class [org.apache.http.client.protocol.ClientContextConfigurer]
+Note: duplicate definition of library class [org.apache.http.client.RequestDirector]
+Note: duplicate definition of library class [org.apache.http.client.utils.CloneUtils]
+Note: duplicate definition of library class [org.apache.http.client.utils.URLEncodedUtils]
+Note: duplicate definition of library class [org.apache.http.client.utils.URIUtils]
+Note: duplicate definition of library class [org.apache.http.client.entity.UrlEncodedFormEntity]
+Note: duplicate definition of library class [org.apache.http.client.CookieStore]
+Note: duplicate definition of library class [org.apache.http.client.NonRepeatableRequestException]
+Note: duplicate definition of library class [org.apache.http.client.RedirectException]
+Note: duplicate definition of library class [org.apache.http.client.HttpRequestRetryHandler]
+Note: duplicate definition of library class [org.apache.http.client.HttpClient]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpOptions]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpDelete]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpPost]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpTrace]
+Note: duplicate definition of library class [org.apache.http.client.methods.AbortableHttpRequest]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpPut]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpGet]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpUriRequest]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpRequestBase]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpEntityEnclosingRequestBase]
+Note: duplicate definition of library class [org.apache.http.client.methods.HttpHead]
+Note: duplicate definition of library class [org.apache.http.client.UserTokenHandler]
+Note: duplicate definition of library class [org.apache.http.client.CircularRedirectException]
+Note: duplicate definition of library class [org.apache.http.client.ResponseHandler]
+Note: duplicate definition of library class [org.apache.http.client.CredentialsProvider]
+Note: duplicate definition of library class [org.apache.http.client.ClientProtocolException]
+Note: duplicate definition of library class [org.apache.http.client.params.ClientPNames]
+Note: duplicate definition of library class [org.apache.http.client.params.HttpClientParams]
+Note: duplicate definition of library class [org.apache.http.client.params.CookiePolicy]
+Note: duplicate definition of library class [org.apache.http.client.params.ClientParamBean]
+Note: duplicate definition of library class [org.apache.http.client.params.AllClientPNames]
+Note: duplicate definition of library class [org.apache.http.client.params.AuthPolicy]
+Note: duplicate definition of library class [org.apache.http.client.AuthenticationHandler]
+Note: duplicate definition of library class [org.apache.http.client.RedirectHandler]
+Note: duplicate definition of library class [org.apache.http.client.HttpResponseException]
+Note: duplicate definition of library class [org.apache.http.conn.OperatedClientConnection]
+Note: duplicate definition of library class [org.apache.http.conn.ClientConnectionOperator]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.PlainSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SchemeRegistry]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.Scheme]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.routing.HttpRoute]
+Note: duplicate definition of library class [org.apache.http.conn.routing.BasicRouteDirector]
+Note: duplicate definition of library class [org.apache.http.conn.routing.HttpRoutePlanner]
+Note: duplicate definition of library class [org.apache.http.conn.routing.RouteInfo$LayerType]
+Note: duplicate definition of library class [org.apache.http.conn.routing.RouteTracker]
+Note: duplicate definition of library class [org.apache.http.conn.routing.RouteInfo$TunnelType]
+Note: duplicate definition of library class [org.apache.http.conn.routing.RouteInfo]
+Note: duplicate definition of library class [org.apache.http.conn.routing.HttpRouteDirector]
+Note: duplicate definition of library class [org.apache.http.conn.EofSensorWatcher]
+Note: duplicate definition of library class [org.apache.http.conn.MultihomePlainSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.HttpHostConnectException]
+Note: duplicate definition of library class [org.apache.http.conn.BasicEofSensorWatcher]
+Note: duplicate definition of library class [org.apache.http.conn.BasicManagedEntity]
+Note: duplicate definition of library class [org.apache.http.conn.ClientConnectionRequest]
+Note: duplicate definition of library class [org.apache.http.conn.ManagedClientConnection]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectionReleaseTrigger]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectionPoolTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.util.InetAddressUtils]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectionKeepAliveStrategy]
+Note: duplicate definition of library class [org.apache.http.conn.ClientConnectionManagerFactory]
+Note: duplicate definition of library class [org.apache.http.conn.EofSensorInputStream]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnPerRoute]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnManagerPNames]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnManagerParams]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnConnectionParamBean]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnRouteParams]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnPerRouteBean]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnRoutePNames]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnRouteParamBean]
+Note: duplicate definition of library class [org.apache.http.conn.params.ConnManagerParamBean]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.ClientConnectionManager]
+Note: duplicate definition of library class [org.apache.http.ProtocolException]
+Note: duplicate definition of library class [org.apache.http.impl.AbstractHttpClientConnection]
+Note: duplicate definition of library class [org.apache.http.impl.DefaultConnectionReuseStrategy]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicDomainHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicClientCookie]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.CookieSpecBase]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2109SpecFactory]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicCommentHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicSecureHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicPathHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BrowserCompatSpecFactory]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.NetscapeDraftSpec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BrowserCompatSpec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.AbstractCookieSpec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965PortAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicExpiresHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965VersionAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BestMatchSpecFactory]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2109VersionHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.NetscapeDraftSpecFactory]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.NetscapeDomainHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicMaxAgeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2109DomainHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.DateUtils]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965DiscardAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965CommentUrlAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BestMatchSpec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965SpecFactory]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2109Spec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965Spec]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.AbstractCookieAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.BasicClientCookie2]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.DateParseException]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.RFC2965DomainAttributeHandler]
+Note: duplicate definition of library class [org.apache.http.impl.cookie.NetscapeDraftHeaderParser]
+Note: duplicate definition of library class [org.apache.http.impl.DefaultHttpServerConnection]
+Note: duplicate definition of library class [org.apache.http.impl.AbstractHttpServerConnection]
+Note: duplicate definition of library class [org.apache.http.impl.EnglishReasonPhraseCatalog]
+Note: duplicate definition of library class [org.apache.http.impl.NoConnectionReuseStrategy]
+Note: duplicate definition of library class [org.apache.http.impl.SocketHttpClientConnection]
+Note: duplicate definition of library class [org.apache.http.impl.entity.StrictContentLengthStrategy]
+Note: duplicate definition of library class [org.apache.http.impl.entity.LaxContentLengthStrategy]
+Note: duplicate definition of library class [org.apache.http.impl.entity.EntitySerializer]
+Note: duplicate definition of library class [org.apache.http.impl.entity.EntityDeserializer]
+Note: duplicate definition of library class [org.apache.http.impl.io.HttpRequestParser]
+Note: duplicate definition of library class [org.apache.http.impl.io.AbstractMessageParser]
+Note: duplicate definition of library class [org.apache.http.impl.io.IdentityInputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.AbstractSessionOutputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.io.IdentityOutputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.AbstractSessionInputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.io.AbstractMessageWriter]
+Note: duplicate definition of library class [org.apache.http.impl.io.HttpTransportMetricsImpl]
+Note: duplicate definition of library class [org.apache.http.impl.io.ChunkedInputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.ContentLengthInputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.HttpResponseWriter]
+Note: duplicate definition of library class [org.apache.http.impl.io.HttpRequestWriter]
+Note: duplicate definition of library class [org.apache.http.impl.io.ChunkedOutputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.ContentLengthOutputStream]
+Note: duplicate definition of library class [org.apache.http.impl.io.HttpResponseParser]
+Note: duplicate definition of library class [org.apache.http.impl.io.SocketOutputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.io.SocketInputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.DefaultHttpRequestFactory]
+Note: duplicate definition of library class [org.apache.http.impl.DefaultHttpResponseFactory]
+Note: duplicate definition of library class [org.apache.http.impl.HttpConnectionMetricsImpl]
+Note: duplicate definition of library class [org.apache.http.impl.auth.NTLMScheme]
+Note: duplicate definition of library class [org.apache.http.impl.auth.NTLMEngine]
+Note: duplicate definition of library class [org.apache.http.impl.auth.RFC2617Scheme]
+Note: duplicate definition of library class [org.apache.http.impl.auth.DigestScheme]
+Note: duplicate definition of library class [org.apache.http.impl.auth.DigestSchemeFactory]
+Note: duplicate definition of library class [org.apache.http.impl.auth.BasicSchemeFactory]
+Note: duplicate definition of library class [org.apache.http.impl.auth.BasicScheme]
+Note: duplicate definition of library class [org.apache.http.impl.auth.UnsupportedDigestAlgorithmException]
+Note: duplicate definition of library class [org.apache.http.impl.auth.NTLMEngineException]
+Note: duplicate definition of library class [org.apache.http.impl.auth.AuthSchemeBase]
+Note: duplicate definition of library class [org.apache.http.impl.client.RequestWrapper]
+Note: duplicate definition of library class [org.apache.http.impl.client.BasicCookieStore]
+Note: duplicate definition of library class [org.apache.http.impl.client.EntityEnclosingRequestWrapper]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultTargetAuthenticationHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.ClientParamsStack]
+Note: duplicate definition of library class [org.apache.http.impl.client.RoutedRequest]
+Note: duplicate definition of library class [org.apache.http.impl.client.AbstractHttpClient]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultHttpClient]
+Note: duplicate definition of library class [org.apache.http.impl.client.AbstractAuthenticationHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.BasicResponseHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultRequestDirector]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultRedirectHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultHttpRequestRetryHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.RedirectLocations]
+Note: duplicate definition of library class [org.apache.http.impl.client.TunnelRefusedException]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultProxyAuthenticationHandler]
+Note: duplicate definition of library class [org.apache.http.impl.client.BasicCredentialsProvider]
+Note: duplicate definition of library class [org.apache.http.impl.client.DefaultUserTokenHandler]
+Note: duplicate definition of library class [org.apache.http.impl.conn.LoggingSessionInputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.conn.AbstractPoolEntry]
+Note: duplicate definition of library class [org.apache.http.impl.conn.Wire]
+Note: duplicate definition of library class [org.apache.http.impl.conn.SingleClientConnManager]
+Note: duplicate definition of library class [org.apache.http.impl.conn.ProxySelectorRoutePlanner]
+Note: duplicate definition of library class [org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter]
+Note: duplicate definition of library class [org.apache.http.impl.conn.DefaultClientConnectionOperator]
+Note: duplicate definition of library class [org.apache.http.impl.conn.DefaultHttpRoutePlanner]
+Note: duplicate definition of library class [org.apache.http.impl.conn.LoggingSessionOutputBuffer]
+Note: duplicate definition of library class [org.apache.http.impl.conn.AbstractClientConnAdapter]
+Note: duplicate definition of library class [org.apache.http.impl.conn.DefaultClientConnection]
+Note: duplicate definition of library class [org.apache.http.impl.conn.DefaultResponseParser]
+Note: duplicate definition of library class [org.apache.http.impl.conn.IdleConnectionHandler]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.RefQueueHandler]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.BasicPooledConnAdapter]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.BasicPoolEntry]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.RouteSpecificPool]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.WaitingThread]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.BasicPoolEntryRef]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.WaitingThreadAborter]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.RefQueueWorker]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.ConnPoolByRoute]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.AbstractConnPool]
+Note: duplicate definition of library class [org.apache.http.impl.conn.tsccm.PoolEntryRequest]
+Note: duplicate definition of library class [org.apache.http.impl.conn.AbstractPooledConnAdapter]
+Note: duplicate definition of library class [org.apache.http.impl.conn.SingleClientConnManager$PoolEntry]
+Note: duplicate definition of library class [org.apache.http.impl.SocketHttpServerConnection]
+Note: duplicate definition of library class [org.apache.http.impl.DefaultHttpClientConnection]
+Note: duplicate definition of library class [org.apache.http.message.BasicLineParser]
+Note: duplicate definition of library class [org.apache.http.message.AbstractHttpMessage]
+Note: duplicate definition of library class [org.apache.http.message.BasicHttpResponse]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeader]
+Note: duplicate definition of library class [org.apache.http.message.LineParser]
+Note: duplicate definition of library class [org.apache.http.message.BasicTokenIterator]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeaderValueFormatter]
+Note: duplicate definition of library class [org.apache.http.message.LineFormatter]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeaderIterator]
+Note: duplicate definition of library class [org.apache.http.message.BasicStatusLine]
+Note: duplicate definition of library class [org.apache.http.message.HeaderGroup]
+Note: duplicate definition of library class [org.apache.http.message.BasicHttpRequest]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeaderElement]
+Note: duplicate definition of library class [org.apache.http.message.HeaderValueFormatter]
+Note: duplicate definition of library class [org.apache.http.message.BasicRequestLine]
+Note: duplicate definition of library class [org.apache.http.message.BasicHttpEntityEnclosingRequest]
+Note: duplicate definition of library class [org.apache.http.message.BufferedHeader]
+Note: duplicate definition of library class [org.apache.http.message.BasicListHeaderIterator]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeaderValueParser]
+Note: duplicate definition of library class [org.apache.http.message.ParserCursor]
+Note: duplicate definition of library class [org.apache.http.message.BasicHeaderElementIterator]
+Note: duplicate definition of library class [org.apache.http.message.BasicLineFormatter]
+Note: duplicate definition of library class [org.apache.http.message.BasicNameValuePair]
+Note: duplicate definition of library class [org.apache.http.message.HeaderValueParser]
+Note: duplicate definition of library class [org.apache.http.HeaderElementIterator]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParamBean]
+Note: duplicate definition of library class [org.apache.http.params.AbstractHttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpAbstractParamBean]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreProtocolPNames]
+Note: duplicate definition of library class [org.apache.http.params.BasicHttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpProtocolParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpProtocolParamBean]
+Note: duplicate definition of library class [org.apache.http.params.DefaultedHttpParams]
+Note: duplicate definition of library class [org.apache.http.MethodNotSupportedException]
+Note: duplicate definition of library class [org.apache.http.HttpResponse]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.BinaryCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.Hex]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.Base64]
+Note: duplicate definition of library class [org.apache.commons.codec.language.Metaphone]
+Note: duplicate definition of library class [org.apache.commons.codec.language.DoubleMetaphone]
+Note: duplicate definition of library class [org.apache.commons.codec.language.RefinedSoundex]
+Note: duplicate definition of library class [org.apache.commons.codec.language.Soundex]
+Note: duplicate definition of library class [org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult]
+Note: duplicate definition of library class [org.apache.commons.codec.BinaryEncoder]
+Note: duplicate definition of library class [org.apache.commons.codec.BinaryDecoder]
+Note: duplicate definition of library class [org.apache.commons.codec.Decoder]
+Note: duplicate definition of library class [org.apache.commons.codec.DecoderException]
+Note: duplicate definition of library class [org.apache.commons.codec.net.URLCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.QuotedPrintableCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.BCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.RFC1522Codec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.QCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.Encoder]
+Note: duplicate definition of library class [org.apache.commons.codec.StringEncoderComparator]
+Note: duplicate definition of library class [org.apache.commons.codec.StringDecoder]
+Note: duplicate definition of library class [org.apache.commons.codec.EncoderException]
+Note: duplicate definition of library class [org.apache.commons.codec.StringEncoder]
+Note: duplicate definition of library class [org.apache.commons.logging.Log]
+Note: duplicate definition of library class [org.apache.commons.logging.LogFactory]
+Note: duplicate definition of library class [org.apache.commons.logging.LogSource]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.Jdk14Logger]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.WeakHashtable]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.SimpleLog]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.NoOpLog]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.LogFactoryImpl]
+Note: duplicate definition of library class [org.apache.commons.logging.LogConfigurationException]
+Note: duplicate definition of library class [android.net.compatibility.WebAddress]
+Note: duplicate definition of library class [android.net.http.RequestQueue]
+Note: duplicate definition of library class [android.net.http.EventHandler]
+Note: duplicate definition of library class [android.net.http.DelegatingSSLSession]
+Note: duplicate definition of library class [android.net.http.LoggingEventHandler]
+Note: duplicate definition of library class [android.net.http.DelegatingSSLSession$CertificateWrap]
+Note: duplicate definition of library class [android.net.http.Headers$HeaderCallback]
+Note: duplicate definition of library class [android.net.http.Headers]
+Note: duplicate definition of library class [android.net.http.HttpAuthHeader]
+Note: duplicate definition of library class [android.net.http.AndroidHttpClient]
+Note: duplicate definition of library class [android.net.http.RequestFeeder]
+Note: duplicate definition of library class [android.net.http.AndroidHttpClientConnection]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.RequestHandle]
+Note: duplicate definition of library class [android.net.http.Connection]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.Request]
+Note: duplicate definition of library class [android.net.http.CertificateChainValidator]
+Note: duplicate definition of library class [android.net.http.HttpsConnection]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'android.Net.http.SslError'
+      Maybe you meant the fully qualified name 'android.net.http.SslError'?
+Note: com.alipay.a.a.g calls 'Field.getGenericType'
+Note: com.alipay.android.phone.mrpc.core.RpcInvoker calls 'Method.getGenericReturnType'
+Note: com.tencent.mm.sdk.storage.CursorFieldHelper calls 'Field.getType'
+Note: com.tencent.mm.sdk.storage.MAutoDBItem calls 'Field.getType'
+Note: com.alipay.b.a.a.a.a: can't find dynamically referenced class android.os.SystemProperties
+Note: com.alipay.b.a.a.b.b: can't find dynamically referenced class android.os.SystemProperties
+Note: com.alipay.b.a.a.b.d: can't find dynamically referenced class android.os.SystemProperties
+Note: com.sina.weibo.sdk.utils.AidTask: can't find dynamically referenced class android.os.SystemProperties
+Note: com.ta.utdid2.android.utils.DebugUtils: can't find dynamically referenced class android.os.SystemProperties
+Note: com.tencent.mm.sdk.platformtools.NetStatusUtil: can't find dynamically referenced class android.app.ActivityManagerNative
+Note: com.tencent.mm.sdk.platformtools.NetStatusUtil: can't find dynamically referenced class android.net.NetworkPolicyManager
+Note: com.tencent.stat.common.d: can't find dynamically referenced class android.os.SystemProperties
+Note: com.tencent.stat.common.q: can't find dynamically referenced class com.tencent.android.tpush.service.XGWatchdog
+Note: com.tencent.connect.a.a accesses a field 'PERIOD' dynamically
+      Maybe this is program field 'com.tencent.stat.StatReportStrategy { com.tencent.stat.StatReportStrategy PERIOD; }'
+Note: com.tencent.connect.a.a accesses a field 'VERSION' dynamically
+      Maybe this is program field 'com.alipay.android.phone.mrpc.core.gwprotocol.JsonSerializer { java.lang.String VERSION; }'
+      Maybe this is program field 'com.sina.weibo.sdk.utils.AidTask { int VERSION; }'
+      Maybe this is program field 'com.tencent.connect.common.BaseApi { java.lang.String VERSION; }'
+      Maybe this is program field 'com.tencent.mid.api.MidConstants { float VERSION; }'
+      Maybe this is program field 'com.tencent.stat.common.StatConstants { java.lang.String VERSION; }'
+      Maybe this is library field 'android.provider.ContactsContract$SyncColumns { java.lang.String VERSION; }'
+      Maybe this is library field 'javax.xml.transform.OutputKeys { java.lang.String VERSION; }'
+Note: com.tencent.mm.sdk.platformtools.NetStatusUtil accesses a declared field 'mService' dynamically
+      Maybe this is program field 'com.android.talkback.CallStateMonitor { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.SpeechController { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.TalkBackDumpAccessibilityEventActivity$TalkBackDumpAccessibilityEventFragment { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.TalkBackUpdateHelper { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.TalkBackUpdateHelper$ExploreByTouchUpdateHelper { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.contextmenu.ContextMenuItemClickProcessor { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.contextmenu.GlobalMenuProcessor { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.contextmenu.ListMenuManager { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.contextmenu.RadialMenuManager { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.contextmenu.TalkBackRadialMenuClient { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.controller.CursorControllerApp { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.controller.FullScreenReadControllerApp { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.controller.GestureControllerApp { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.controller.TelevisionNavigationController { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.AccessibilityEventProcessor { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorFocusAndSingleTap { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorFocusAndSingleTap$FirstWindowFocusManager { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorPhoneticLetters { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorScreen { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorVolumeStream { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.eventprocessor.ProcessorWebContent { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.formatter.TouchExplorationFormatter { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.menurules.NodeMenuRuleProcessor { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.menurules.RuleEditText$EditTextMenuItemClickListener { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.menurules.RuleSeekBar$SeekBarDialogManager { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.menurules.RuleSuggestions$ReturnToAnchorItemClickListener { com.google.android.marvin.talkback8.TalkBackService mService; }'
+      Maybe this is program field 'com.android.talkback.menurules.RuleSuggestions$ViewSuggestionsItemClickListener { com.google.android.marvin.talkback8.TalkBackService mService; }'
+Note: com.tencent.stat.common.q accesses a declared field 'WatchdogPath' dynamically
+Note: the configuration keeps the entry point 'com.android.talkback.contextmenu.RadialMenuView { void setSubMenuMode(com.android.talkback.contextmenu.RadialMenuView$SubMenuMode); }', but not the descriptor class 'com.android.talkback.contextmenu.RadialMenuView$SubMenuMode'
+Note: the configuration keeps the entry point 'com.tencent.open.PKDialog { PKDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.PKDialog { PKDialog(android.content.Context,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener,com.tencent.connect.auth.QQToken); }', but not the descriptor class 'com.tencent.connect.auth.QQToken'
+Note: the configuration keeps the entry point 'com.tencent.open.PKDialog$OnTimeListener { PKDialog$OnTimeListener(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.PKDialog$OnTimeListener { void onError(com.tencent.tauth.UiError); }', but not the descriptor class 'com.tencent.tauth.UiError'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$FbWebViewClient { TDialog$FbWebViewClient(com.tencent.open.TDialog); }', but not the descriptor class 'com.tencent.open.TDialog'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$FbWebViewClient { TDialog$FbWebViewClient(com.tencent.open.TDialog,com.tencent.open.TDialog$1); }', but not the descriptor class 'com.tencent.open.TDialog'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$JsListener { TDialog$JsListener(com.tencent.open.TDialog); }', but not the descriptor class 'com.tencent.open.TDialog'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$JsListener { TDialog$JsListener(com.tencent.open.TDialog,com.tencent.open.TDialog$1); }', but not the descriptor class 'com.tencent.open.TDialog'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$OnTimeListener { TDialog$OnTimeListener(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.tencent.tauth.IUiListener); }', but not the descriptor class 'com.tencent.tauth.IUiListener'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$OnTimeListener { void onError(com.tencent.tauth.UiError); }', but not the descriptor class 'com.tencent.tauth.UiError'
+Note: the configuration keeps the entry point 'com.tencent.open.TDialog$THandler { TDialog$THandler(com.tencent.open.TDialog,com.tencent.open.TDialog$OnTimeListener,android.os.Looper); }', but not the descriptor class 'com.tencent.open.TDialog'
+Note: the configuration keeps the entry point 'com.tencent.open.a$b { void call(java.lang.String,java.util.List,com.tencent.open.a$a); }', but not the descriptor class 'com.tencent.open.a$a'
+Note: the configuration keeps the entry point 'com.tencent.open.b$1 { b$1(com.tencent.open.b); }', but not the descriptor class 'com.tencent.open.b'
+Note: the configuration keeps the entry point 'com.tencent.open.yyb.AppbarActivity$c { AppbarActivity$c(com.tencent.open.yyb.AppbarActivity); }', but not the descriptor class 'com.tencent.open.yyb.AppbarActivity'
+Note: the configuration keeps the entry point 'com.tencent.open.yyb.AppbarActivity$c { AppbarActivity$c(com.tencent.open.yyb.AppbarActivity,com.tencent.open.yyb.AppbarActivity$1); }', but not the descriptor class 'com.tencent.open.yyb.AppbarActivity'
+Note: the configuration keeps the entry point 'com.tencent.open.yyb.AppbarActivity$c { AppbarActivity$c(com.tencent.open.yyb.AppbarActivity,com.tencent.open.yyb.AppbarActivity$1); }', but not the descriptor class 'com.tencent.open.yyb.AppbarActivity$1'
+Note: the configuration keeps the entry point 'com.xinyang.screenreader.ApkFragment$ApkHttpsDelegate { ApkFragment$ApkHttpsDelegate(com.xinyang.screenreader.ApkFragment); }', but not the descriptor class 'com.xinyang.screenreader.ApkFragment'
+Note: the configuration keeps the entry point 'com.xinyang.screenreader.MyFragment$ChangeHttpsDelegate { MyFragment$ChangeHttpsDelegate(com.xinyang.screenreader.MyFragment); }', but not the descriptor class 'com.xinyang.screenreader.MyFragment'
+Note: the configuration keeps the entry point 'com.xinyang.screenreader.SettingsFragment$BuyHttpsDelegate { SettingsFragment$BuyHttpsDelegate(com.xinyang.screenreader.SettingsFragment); }', but not the descriptor class 'com.xinyang.screenreader.SettingsFragment'
+Note: the configuration explicitly specifies 'android.webkit.WebViewClient' to keep library class 'android.webkit.WebViewClient'
+Note: the configuration explicitly specifies 'android.webkit.WebChromeClient' to keep library class 'android.webkit.WebChromeClient'
+Note: the configuration explicitly specifies 'android.webkit.WebChromeClient$CustomViewCallback' to keep library class 'android.webkit.WebChromeClient$CustomViewCallback'
+Note: the configuration explicitly specifies 'android.webkit.ValueCallback' to keep library class 'android.webkit.ValueCallback'
+Note: there were 3 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 4 classes trying to access generic signatures using reflection.
+      You should consider keeping the signature attributes
+      (using '-keepattributes Signature').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#attributes)
+Note: there were 20 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 4 library classes explicitly being kept.
+      You don't need to keep library classes; they are already left unchanged.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#libraryclass)
+Note: there were 9 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 4 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 3816
+  Final number of library classes:    1466
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [D:\screenreader\build\outputs\mapping\aosp\release\usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 3927
+  Final number of program classes:    2767
+Obfuscating...
+Printing mapping to [D:\screenreader\build\outputs\mapping\aosp\release\mapping.txt]...
+Writing output...
+Preparing output jar [D:\screenreader\build\intermediates\transforms\proguard\aosp\release\jars\3\1f\main.jar]
+  Copying resources from program jar [D:\screenreader\src\main\libs\mid-core-sdk-3.7.1.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\mta-android-stat-sdk-2.3.0_20161221-jdk1.6.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\alipaySdk-20161222.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\org.apache.http.legacy.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\weibosdkcore_release.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\wechat-sdk-android-without-mta-1.0.2.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\open_sdk_r5509.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\src\main\libs\libammsdk.jar] (filtered)
+  Copying resources from program jar [D:\android\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar] (filtered)
+  Copying resources from program jar [D:\screenreader\build\intermediates\transforms\mergeJavaRes\aosp\release\jars\2\1f\main.jar] (filtered)
+  Copying resources from program directory [D:\screenreader\build\intermediates\classes\aosp\release] (filtered)
+Printing classes to [D:\screenreader\build\outputs\mapping\aosp\release\dump.txt]...
+:transformClassesWithDexForAospRelease
+:mergeAospReleaseJniLibFolders UP-TO-DATE
+:transformNative_libsWithMergeJniLibsForAospRelease UP-TO-DATE
+:validateReleaseSigning
+:packageAospRelease
+:zipalignAospRelease
+:assembleAospRelease
+:assembleRelease
+:assemble
+
+BUILD SUCCESSFUL
+
+Total time: 39.306 secs

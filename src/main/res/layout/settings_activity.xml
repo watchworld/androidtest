@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#FF000000"
+              android:textColor="#FFFFFFFF"
+>
+
+<TextView
+android:id="@+id/show_textView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#FFFFFFFF"
+android:background="@null"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+/>
+
+  <Button
+android:id="@+id/buy_vip_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/buy_vip_button"
+android:textSize="20sp"
+android:visibility="gone"
+/>
+
+  <Button
+android:id="@+id/bind_vip_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/bind_vip_button"
+android:textSize="20sp"
+android:visibility="gone"
+/>
+
+  <Button
+android:id="@+id/open_accessibility_settings_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/accessibility_settings_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/open_settings_activity_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/settings_activity_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/open_tts_settings_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/tts_settings_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/open_setting_ring_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/setting_ring_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/open_language_and_input_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/language_and_input_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/open_apps_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/apps_button"
+android:textSize="20sp"
+/>
+
+  <Button
+android:id="@+id/yzm_activity_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/yzm_activity_button"
+android:textSize="20sp"
+/>
+
+
+  <Button
+android:id="@+id/open_developer_button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:layout_marginLeft="30dp"
+android:layout_marginRight="30dp"
+android:layout_marginTop="10dp"
+android:text="@string/developer_button"
+android:textSize="20sp"
+/>
+
+</LinearLayout>
+
+</ScrollView>

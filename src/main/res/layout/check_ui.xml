@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#ffffff"
+android:orientation="vertical"
+android:paddingBottom="2dp">
+
+<LinearLayout
+android:gravity="center"
+android:orientation="horizontal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" >
+
+<RadioGroup
+android:id="@+id/IDRG_CLASSIFY"
+android:gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" >
+
+<RadioButton
+android:id="@+id/IDRB_CHECKSUN"
+android:gravity="left"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_CHECKSUN" 
+android:contentDescription="@string/SR_DESCRIPTION_CHECKSUN" />
+
+<RadioButton
+android:id="@+id/IDRB_CHECKLUNAR"
+android:gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_CHECKLUNAR" 
+android:contentDescription="@string/SR_DESCRIPTION_CHECKLUNAR" />
+
+<RadioButton
+android:id="@+id/IDRB_SUNPOSITION"
+android:gravity="right"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_SUNPOSITION" />
+
+<RadioButton
+android:id="@+id/IDRB_FESTIVAL"
+android:gravity="right"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_FESTIVAL" />
+
+</RadioGroup>
+</LinearLayout>
+
+<EditText
+android:id="@+id/IDET_LUNAR_DATE"
+android:gravity="left"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="number"
+android:digits="1234567890"
+android:maxLength="9" 
+android:contentDescription="@string/SR_DESCRIPTION_LUNAR_DATE" 
+android:singleLine="true"
+android:imeOptions="actionDone" />
+
+<Button
+android:id="@+id/IDB_CHECK"
+android:gravity="right"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_CHECK" />
+
+<TextView
+android:id="@+id/IDTV_INPUT"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+
+<TextView
+android:id="@+id/IDTV_EFFECT"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+
+<Button
+android:id="@+id/IDB_CONTINUE"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:text="@string/SR_CONTINUE" />
+
+<ListView
+android:id="@+id/IDLV_SUNPOSITION"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />
+
+<Button
+android:id="@+id/IDB_RETURN"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/SR_RETURN" />
+
+</LinearLayout>

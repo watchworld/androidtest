@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffffff"
+android:orientation="vertical"
+>
+
+<TextView
+android:id="@+id/IDTV_TIME"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_TIME"
+android:layout_marginTop="10dp" />
+
+<TextView
+android:id="@+id/IDTV_SUN"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_SUN"
+android:layout_marginTop="5dp" />
+
+<TextView
+android:id="@+id/IDTV_LUNAR"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_LUNAR"
+android:layout_marginTop="5dp" />
+
+<TextView
+android:id="@+id/IDTV_BATTERY"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_BATTERY"
+android:layout_marginTop="5dp" />
+
+<TextView
+android:id="@+id/IDTV_NETWORK"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_NETWORK"
+android:layout_marginTop="5dp" />
+
+<TextView
+android:id="@+id/IDTV_SEARCH"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_SEARCH"
+android:layout_marginTop="5dp" />
+
+<TextView
+android:id="@+id/IDTV_XINYANG"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:textSize="15sp"
+android:text="@string/SR_XINYANG"
+android:layout_marginTop="5dp" />
+
+<Button
+android:id="@+id/IDB_RETURN"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/SR_RETURN"
+android:layout_marginTop="5dp" />
+
+</LinearLayout>
